@@ -18,18 +18,18 @@
 
 -  Validation & Error Handling – Proper input validation and meaningful error messages
 
-  ## Tech Stack
-  ## Frontend
-  -  React.js
-  -  Axios
-  ## Backend
-  -  Node.js
-  -  Express.js
-  -  MongoDB
-  ## Email Service
-  -  NodeMailer
-  ## Password Encryption
-  -  Bcrypt
+## Tech Stack
+   ## Frontend
+   -  React.js
+   -  Axios
+   ## Backend
+   -  Node.js
+   -  Express.js
+   -  MongoDB
+   ## Email Service
+   -  NodeMailer
+   ## Password Encryption
+   -  Bcrypt
 
 ## ⚙️ Installation & Setup
 
@@ -38,38 +38,37 @@
 - git clone https://github.com/your-username/simple-auth.git
 - cd simple-auth
 
-
 ## Install dependencies
-- Run the following command to install all required packages:
+ - Run the following command to install all required packages:
 
-- npm install
+ - npm install
 
 
 ## Create an environment file
-- In the project root, create a .env file and add the following variables:
+ - In the project root, create a .env file and add the following variables:
 
-PORT=5000  
+ PORT=5000  
 
-MONGO_URI=your_mongodb_connection_string  
+ MONGO_URI=your_mongodb_connection_string  
 
-JWT_SECRET=your_jwt_secret_key  
+ JWT_SECRET=your_jwt_secret_key  
 
-SMTP_USER=your_email@example.com  
+ SMTP_USER=your_email@example.com  
 
-SMTP_PASS=your_email_password  
+ SMTP_PASS=your_email_password  
 
-BACKEND_URL=http://localhost:3000  
+ BACKEND_URL=http://localhost:3000  
 
-SENDER_EMAIL=your_email  
+ SENDER_EMAIL=your_email  
 
 
 ## Start the application
-- Use the command below to run the server:
+ - Use the command below to run the server:
 
-- npm start
+ - npm start
 
 
 ## Access the project
-Once started, the app will be available at:
+ - Once started, the app will be available at:
 
-http://localhost:5000
+ - http://localhost:5000
