@@ -19,6 +19,7 @@
 -  Validation & Error Handling – Proper input validation and meaningful error messages
 
 ## Tech Stack
+
    ## Frontend
    -  React.js
    -  Axios
@@ -45,7 +46,7 @@
 
 
 ## Create an environment file
- - In the project root, create a .env file and add the following variables:
+ In the project root, create a .env file and add the following variables:
 
  PORT=5000  
 
