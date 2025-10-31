@@ -65,8 +65,12 @@
 
 ## Start the application
  - Use the command below to run the server:
-
+ - cd server
+ - node server.js
+ - Use the command to run the frontend:
+ - cd frontend
  - npm start
+ - Make sure that database is connected
 
 
 ## Access the project
