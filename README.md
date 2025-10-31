@@ -6,15 +6,15 @@
 
 -  User Registration (Sign Up) – Create a new account with email and password
 
--  Login (Sign In) – Authenticate users and return a secure token (JWT or session)
+-  Login (Sign In) – Authenticate users and return a secure token (using JWT)
 
--  Logout – Invalidate the current session or token
+-  Logout – Invalidate the current token
 
 -  Email Verification – Send verification link to confirm the user’s email
 
 -  Password Reset – Reset forgotten passwords through email link
 
--  Secure Password Hashing – Passwords are stored securely using bcrypt (or other algorithm)
+-  Secure Password Hashing – Passwords are stored securely using bcrypt 
 
 -  Validation & Error Handling – Proper input validation and meaningful error messages
 
