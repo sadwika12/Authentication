@@ -48,8 +48,6 @@
 ## Create an environment file
  In the project root, create a .env file and add the following variables:
 
- PORT=5000  
-
  MONGO_URI=your_mongodb_connection_string  
 
  JWT_SECRET=your_jwt_secret_key  
