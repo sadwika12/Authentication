@@ -19,16 +19,16 @@
 -  Validation & Error Handling – Proper input validation and meaningful error messages
 
   ## Tech Stack
--  Frontend
+  ## Frontend
   -  React.js
   -  Axios
--  Backend
+  ## Backend
   -  Node.js
   -  Express.js
   -  MongoDB
--  Email Service
+  ## Email Service
   -  NodeMailer
--  Password Encryption
+  ## Password Encryption
   -  Bcrypt
 
 ## ⚙️ Installation & Setup
@@ -48,13 +48,20 @@
 ## Create an environment file
 - In the project root, create a .env file and add the following variables:
 
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-SMTP_USER=your_email@example.com
-SMTP_PASS=your_email_password
-BACKEND_URL=http://localhost:3000
-SENDER_EMAIL=your_email
+PORT=5000  
+
+MONGO_URI=your_mongodb_connection_string  
+
+JWT_SECRET=your_jwt_secret_key  
+
+SMTP_USER=your_email@example.com  
+
+SMTP_PASS=your_email_password  
+
+BACKEND_URL=http://localhost:3000  
+
+SENDER_EMAIL=your_email  
+
 
 ## Start the application
 - Use the command below to run the server:
