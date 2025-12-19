@@ -52,9 +52,9 @@
 
  JWT_SECRET=your_jwt_secret_key  
 
- SMTP_USER=your_email@example.com  
+ SMTP_USER=SMTP_USERNAME
 
- SMTP_PASS=your_email_password  
+ SMTP_PASS=SMTP_PASSWORD 
 
  BACKEND_URL=http://localhost:3000  
 
